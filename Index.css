@@ -1,78 +1,78 @@
-html, body
-{
+html,
+body {
   height: 100%;
   width: 100%;
   background-color: powderblue;
   margin-left: 0%;
   margin-top: 0%;
 }
-img.logo 
-{
+
+img.logo {
   width: 200px;
   object-fit: cover;
   float: left;
   margin-left: 10px;
   margin-top: 10px;
 }
-div.logo 
-{
-  width:100%;
-  height:90px;
+
+div.logo {
+  width: 100%;
+  height: 90px;
   /*border:1px solid #000;*/
 }
-h1.strip
-{
+
+h1.strip {
   text-align: center;
   color: purple;
   padding-left: 0%;
   padding-bottom: 0%;
   font-style: normal;
   font-weight: normal;
-  margin-top:0%;
-  margin-bottom:0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   font-size: 40px;
   font-family: "Comic Sans MS", "Comic Sans", normal;
   text-shadow: 1px 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;
 }
-div.strip 
-{
+
+div.strip {
   /*width:500px;
   height:100px;*/
-  border:1px solid #000;
-  background-color:cornflowerblue;
+  border: 1px solid #000;
+  background-color: cornflowerblue;
   box-shadow: 5px 10px #888888;
 }
-div.stage
-{
-  border:1px solid #000;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top:10%;
+
+div.stage {
+  border: 1px solid #000;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
 }
-div.select
-{
-  border:1px solid #000;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top:5%;
-  margin-bottom:5%;
+
+div.select {
+  border: 1px solid #000;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   border-radius: 15px;
-  box-shadow: 5px 10px  #888889;
+  box-shadow: 5px 10px #888889;
 }
-div.student
-{
+
+div.student {
   background-color: lightgreen;
 }
-div.admin
-{
+
+div.admin {
   background-color: #ff5eb0;
 }
-h2.select
-{
-  margin-left:3%;
+
+h2.select {
+  margin-left: 3%;
 }
-button.select
-{
+
+button.select {
   float: right;
   align: centre;
   border: none;
@@ -84,59 +84,58 @@ button.select
   font-size: 10px;
   margin: 2px 2px;
   cursor: pointer;
-  margin-right:5%;
+  margin-right: 5%;
   border-radius: 15px;
   transition-duration: 0.4s;
-  height:"height";
-  width:"width";
+  height: "height";
+  width: "width";
 }
-button.student
-{
-  border:2px solid green;
+
+button.student {
+  border: 2px solid green;
   background-color: lightgreen;
   box-shadow: #004400;
 }
-button.admin
-{
-  border:2px solid red;
+
+button.admin {
+  border: 2px solid red;
   background-color: #ff5eb0;
   box-shadow: darkred;
 }
-button.student:hover
-{
+
+button.student:hover {
   background-color: green;
 }
-button.admin:hover
-{
+
+button.admin:hover {
   background-color: red;
 }
-button.student:active
-{
+
+button.student:active {
   background-color: green;
   box-shadow: 0 5px #004400;
   transform: translateY(4px);
 }
-button.admin:active
-{
+
+button.admin:active {
   background-color: red;
   box-shadow: 0 5px darkred;
   transform: translateY(4px);
 }
-p.blink 
-{
+
+p.blink {
   animation: blinker 1s linear infinite;
   color: black;
-  margin-top:5%;
-  margin-bottom:5%;
-  margin-left:5%;
-  margin-right:5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 2px 5px;
   font-weight: bold;
 }
-@keyframes blinker 
-{
-  50% 
-  {
+
+@keyframes blinker {
+  50% {
     opacity: 0;
   }
 }

@@ -1,34 +1,24 @@
-function admin() 
-{
+function admin() {
   var question = prompt("Administrative password");
   var reponse = "12345";
-  if (question === reponse) 
-  {
+  if (question === reponse) {
     authorize();
-  } 
-  else 
-  {
+  } else {
     alert("enter correct password");
   }
-  function authorize() 
-  {
+  function authorize() {
     window.open("Admin.html");
   }
 }
-function student() 
-{
+function student() {
   var questions = prompt("are you a student ? (Y/N)");
   var responses = "Y";
-  if (questions === responses)
-  {
+  if (questions === responses) {
     admit();
-  }
-  else
-  {
+  } else {
     alert("only for students");
   }
-  function admit()
-  {
+  function admit() {
     window.open("Students.html");
   }
 }
